@@ -1,0 +1,88 @@
+
+.contenedor{
+display: grid;
+grid-template-columns: repeat(auto-fill,300px);
+grid-auto-rows: 400px ;
+gap: 5px;
+
+}
+
+.contenedor2{
+display: grid;
+grid-template-columns: repeat(auto-fill,300px);
+grid-auto-rows: 400px ;
+gap: 5px;
+
+}
+
+.item{
+
+border: 2px solid black;
+border-radius: 5px;
+box-shadow: -4px -3px 7px 4px rgba(201, 46, 46, 0.4);
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+.card{
+width: 90%;
+height: 90%;
+
+}
+
+.item2{
+
+border-radius: 5px;
+box-shadow: -4px -3px 7px 4px rgb(72, 100, 99);
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+
+.card1:hover{
+filter: brightness(150%);
+
+}
+.card2:hover{
+filter: sepia(100%);
+
+}
+.card3:hover{
+filter: contrast(200%);
+}
+
+.card4:hover{
+filter: blur(2px);
+}
+
+.card5:hover{
+filter: blur(1px);
+}
+
+.card6:hover{
+filter: contrast(130%);
+}
+
+.card7:hover{
+filter: blur(2px);
+}
+
+.card8:hover{
+filter: brightness(120%);
+}
+
+.card9:hover{
+filter: contrast(40%);
+}
+
+.card9:hover{
+filter: contrast(40%);
+}
+
+.card10:hover{
+filter: blur(2px);
+}

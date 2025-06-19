@@ -1,0 +1,78 @@
+
+.body0 {
+    display: flex;
+    justify-content: center; 
+    align-items: flex-end; 
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    overflow: hidden; 
+    position: relative; 
+}
+
+.body1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end; 
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    overflow: hidden;
+    position: relative;
+}
+
+
+
+
+@keyframes subirImagen {
+    0% {
+        opacity: 0; 
+        transform: translateY(100%); 
+    }
+    100% {
+        opacity: 1; 
+        transform: translateY(0); 
+    }
+}
+
+.item img {
+    
+    display: block;
+    width: 100%; 
+    height: auto;
+    animation-name: subirImagen; 
+    animation-duration: 1s; 
+    animation-timing-function: ease-out; 
+    animation-fill-mode: forwards; 
+    opacity: 0; 
+}
+
+
+.body0 .item:nth-child(1) img { animation-delay: 0.2s; }
+.body0 .item:nth-child(2) img { animation-delay: 0.4s; }
+.body0 .item:nth-child(3) img { animation-delay: 0.6s; }
+.body0 .item:nth-child(4) img { animation-delay: 0.8s; }
+.body0 .item:nth-child(5) img { animation-delay: 1.0s; }
+
+
+.contenedor {
+    display: flex;
+    justify-content: center; 
+    width: 100%; 
+    flex-wrap: wrap; 
+}
+
+.item {
+    flex: 0 0 18%; 
+    margin: 1%; 
+ 
+    overflow: hidden;
+  /
+}
+
+
+.card {
+    
+    width: 100%;
+    height: auto; 
+}
